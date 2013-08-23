@@ -371,7 +371,9 @@ class Pager {
                 $html   .= '<li class="pagelist_ext">' . $content . '</li>';
             }
         }
-
+        
+        //封闭HTML标签
+        $html .= '</ul></div>';
         return $html;
     }
 
